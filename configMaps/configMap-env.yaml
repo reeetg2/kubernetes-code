@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: sales-dev
+  name: sales-uat
 data:
-  JAVA_HOME: /opt/java1.8.212/bin/java
-  API_ENDPOINT: http://abcdbstg01.corp.com:5432
+  JAVA_HOME: /opt/java1.8.212/bin/java/uat
+  API_ENDPOINT: http://abcdbstg01.corp.com:5000
